@@ -2,7 +2,7 @@ def calculate_grade(score, grading_scale):
     for grade, min_score in grading_scale.items():
         if score >= min_score:
             return grade
-    return "F"  # Default to "F" if the score is below the minimum value in the grading scale.
+            # Default to "F" if the score is below the minimum value in the grading scale.
 
 def main():
     grading_scale = {
